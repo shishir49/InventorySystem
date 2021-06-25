@@ -1,0 +1,296 @@
+body{
+    margin:auto;
+}
+
+.site_header{
+    height:94px;
+    background:#009688;
+    width:100%;
+    float:left;
+    z-index:20;
+}
+
+
+.logo{
+    width:30%;
+    float: left;
+}
+
+.navigation_menu{
+    width: 70%;
+    float: left;
+}
+
+.menu_list{
+    padding:2%;
+}
+
+.logo{
+    width:30%;
+    float:left;
+    color:white;
+    font-size:20px;
+    line-height:4.5;
+}
+
+.logo img{
+    width:80%;
+    float:left;
+}
+
+.menu_item{
+    color:white!important;
+    float:right;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    line-height:3;
+    cursor:pointer;
+}
+
+
+
+.site_header{
+    width:100%;
+    float:left;
+    border-bottom:1px solid #038074;
+}
+
+.ask{
+    background:#333030;
+    transition:0.5s ease-out;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+.ask:hover{
+    background:pink;
+}
+
+.site_logo img{
+    width:70%;
+}
+
+.site_footer{
+    width:100%;
+    float:left;
+    border-top:1px solid #038074;
+    background:#37545f;
+}
+
+.footer_column{
+    width:25%;
+    float:left;
+    padding-top:3%;
+}
+
+.map{
+    padding:5%;
+}
+
+.footer_address{
+    font-size:14px;
+    color:#aaa;
+    padding-left:5%;
+}
+
+.footer_title{
+    color:white;
+    width:100%;
+    float:left;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+.footer_content{
+    width:100%;
+    float:left;
+    padding-top:8%;
+}
+
+.footer_item{
+    color:#aaa!important;
+    width:100%;
+    float:left;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
+.footer_content .footer_social{
+    float:left;
+    width:10%;
+    color:#aaa!important;
+    float:left;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
+.copyright{
+    width:100%;
+    float:left;
+    background:#009688;
+    height:60px;
+    line-height:2;
+    color:white;
+}
+
+.footer_logo{
+    width:100%;
+}
+
+
+/*Slider*/
+
+.slider{
+    width:100%;
+    float:left;
+}
+
+
+/*Products */
+
+.our_products{
+    width:100%;
+    float: left;
+}
+
+.page_title{
+    width:100%;
+    float: left;
+    text-align: center;
+    padding-top:1%;
+    padding-bottom:1%;
+    color: #8c8989;
+    background: #1f1e1e;
+    height: 70px;
+}
+
+.title{
+    padding:2%;
+}
+
+.side_bar{
+    width: 20%;
+    float: left;
+    padding-top:5%;
+    padding-bottom:5%;
+    border-right: 2px solid #eee;
+}
+
+.product_list{
+    width: 80%;
+    float: left;
+    background: #eee;
+    padding: 1%;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+
+.product_card{
+    width: 23%;
+    float: left;
+    border:1px solid #eee;
+    margin:0.5%;
+    background: white;
+    box-shadow: 2px 2px 4px gray;
+    padding: 3%;
+    height: 400px;
+}
+
+.category_list{
+    width: 100%;
+    float: left;
+}
+
+.category_list span{
+    //width: 100%;
+    float: left;
+    padding: 5%;
+    padding-left: 5%;
+    background: #eee;
+    margin:1%;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.category_list span:hover{
+    background: #009688;
+    color: white;
+}
+
+.category_list .single_cat{
+    background: #009688;
+    color: white;
+}
+
+.quick_search{
+    width: 100%;
+    float: left;
+    padding: 5%;
+}
+
+.search_by_cat{
+    width: 100%;
+    padding: 5%;
+    float: left;
+}
+
+
+/*Product Body*/
+
+.content{
+        width:100%;
+        float:left;
+        z-index:1;
+    }
+
+    .section_title{
+        height:100px;
+        line-height:3;
+        width:100%;
+        float:left;
+        padding-top:1%;
+        padding-bottom:1%;
+    }
+    .content_body{
+        width:100%;
+        float:left;
+        padding-top:4%;
+        padding-bottom:4%;
+    }
+
+    .headline{
+        padding:2%;
+        padding-left:6%;
+        padding-right:6%;
+    }
+    
+    .content_description{
+        padding-left:2%;
+        padding-right:2%;
+    }
+
+    .content_description{
+        width:100%;
+        float:left;
+    }
+
+    .product_image{
+        width:40%;
+        float:left;
+        border:1px solid #eee;
+        overflow:hidden;
+    }
+
+    .product_image img{
+        width:100%;
+    }
+
+    .product_description{
+        width:60%;
+        float:left;
+        padding:2%;
+        padding-left:5%;
+    }
